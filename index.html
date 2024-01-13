@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.8">
+    <title>Stipend NITJ</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+
+
+<body>
+    <div id="heading">
+        <div id="head">
+
+            <img src="./nitj.png" id="icon" alt="nitj.png" height="67px" width="67px">
+            <h1 class="hindi">
+                डा. बी आर अम्बेदकर राष्ट्रीय प्रौद्योगिकी संस्थान, जालन्धर
+            </h1>
+        </div>
+        <h4 style="margin-bottom: 15px;margin-top: -10px">Dr B R AMBEDKAR NATIONAL INSTITUTE OF TECHNOLOGY JALANDHAR
+        </h4>
+    </div>
+    <div class="container">
+        <div>
+            <div class=" indiv" style="float: left;font-weight: bold;">
+                Ref. No…………………
+            </div>
+            <div class=" indiv" style="float: right;font-weight: bold;">
+                Date…………………
+            </div>
+        </div>
+        <br>
+        <h4 style="text-align: center;margin-top: -5px;margin-bottom: 10px;">Monthly Progress Report of M Tech Students
+        </h4>
+        <div class="indiv">
+            1. Name of the Student -
+            <div class="text_input" contenteditable="true" style="width: 142px;"></div>
+            Roll No. -
+            <div class="text_input" contenteditable="true" style="width: 80px;"></div>
+            Department -
+            <div class="text_input" contenteditable="true" style="width: 177px;"></div>
+        </div>
+        <div class="indiv">
+            2. Son of -
+            <div class="text_input" contenteditable="true" style="width: 221px;"></div>
+            Semester -
+            <div class="text_input" contenteditable="true" style="width: 80px;"></div>
+        </div>
+        <div class="indiv">
+            3. Mobile No -
+            <div class="text_input" contenteditable="true" style="width: 197px;"></div>
+            Email -
+            <div class="text_input" contenteditable="true" style="min-width: 200px;max-width: 350px;"></div>
+        </div>
+        <div class="indiv">
+            4. Period from
+            <div class="text_input_underline" contenteditable="true"
+                style="width: 155px;margin-left: 5px;margin-right: 5px;text-align: center;"></div>
+            to
+            <div class="text_input_underline" contenteditable="true"
+                style="width: 155px;margin-left: 5px;margin-right: 5px;text-align: center;"></div>
+            Month and Year
+            <div class="text_input_underline" contenteditable="true"
+                style="width: 140px;margin-left: 5px;margin-right: 5px;text-align: center;"></div>
+        </div>
+        <div class="indiv">
+            5.
+            Email of Student -
+            <div class="text_input" contenteditable="true" style="width: 280px;margin-right: 10px;margin-top: 5px">
+            </div>
+            Mobile No -
+            <div class="text_input" contenteditable="true" style="width: 197px;"></div>
+        </div>
+        <div class="indiv">
+            6. Name of Bank -
+            <div class="text_input" contenteditable="true" style="width: 200px;"></div>
+            Account No. -
+            <div class="text_input" contenteditable="true" style="width: 110px;margin-right: 5px;margin-left: 5px;">
+            </div>
+            IFSC Code -
+            <div class="text_input" contenteditable="true" style="width: 85px;margin-left: 5px;">
+            </div>
+        </div>
+        <div class=" indiv"
+            style="text-align: right;height: 53px;font-weight: bold;display: flex;align-items: flex-end;flex-direction: column; justify-content: flex-end;padding: 0px 10px 0px 0px;">
+            (Signature of Student)</div>
+        <div style="font-family: 'Times New Roman', Times, serif;margin-top: -25px;margin-bottom: 5px;">
+            <h4 style="margin-bottom: 3px;">
+                7. Class Work Performance
+            </h4>
+            <div>
+                <table>
+                    <tr>
+                        <th rowspan="2">Sr. No</th>
+                        <th rowspan="2">Subject</th>
+                        <th colspan="3">Attendence of Lectures</th>
+                        <th rowspan="2">Signature of the Teacher</th>
+                    </tr>
+                    <tr>
+                        <th>Delivered</th>
+                        <th>Attended</th>
+                        <th>Percent Attendence</th>
+                    </tr>
+                    <tr id="row1">
+                        <td style="text-align: center;"><b>I</b></td>
+                        <td>Big Data Analytics</td>
+                        <td>
+                            <div class="text_input delivered" contenteditable="true"
+                                style="width: 50px;margin-right: 5px;margin-left: 5px;text-align: center;"
+                                oninput="calper(1)">
+                            </div>
+                        </td>
+                        <td>
+                            <div class=" text_input attended" contenteditable="true"
+                                style="width: 50px;margin-right: 5px;margin-left: 5px;text-align: center;"
+                                oninput="calper(1)">
+                            </div>
+                        </td>
+                        <td class="res"></td>
+                        <td></td>
+                    </tr>
+                    <tr id="row2">
+                        <td style="text-align: center;"><b>II</b></td>
+                        <td>Deep Learning</td>
+                        <td>
+                            <div class="text_input delivered" contenteditable="true"
+                                style="width: 50px;margin-right: 5px;margin-left: 5px;text-align: center;"
+                                oninput="calper(2)">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="text_input attended" contenteditable="true"
+                                style="width: 50px;margin-right: 5px;margin-left: 5px;text-align: center;"
+                                oninput="calper(2)">
+                            </div>
+                        </td>
+                        <td class="res"></td>
+                        <td></td>
+                    </tr>
+                    <tr id="row3">
+                        <td style="text-align: center;"><b>III</b></td>
+                        <td>Data Engineering and Visualization</td>
+                        <td>
+                            <div class="text_input delivered" contenteditable="true"
+                                style="width: 50px;margin-right: 5px;margin-left: 5px;text-align: center;"
+                                oninput="calper(3)">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="text_input attended" contenteditable="true"
+                                style="width: 50px;margin-right: 5px;margin-left: 5px;text-align: center;"
+                                oninput="calper(3)">
+                            </div>
+                        </td>
+                        <td class="res"></td>
+                        <td></td>
+                    </tr>
+                    <tr id="row4">
+                        <td style="text-align: center;"><b>IV</b></td>
+                        <td>Optimization Techniques for Data Science</td>
+                        <td>
+                            <div class="text_input delivered" contenteditable="true"
+                                style="width: 50px;margin-right: 5px;margin-left: 5px;text-align: center;"
+                                oninput="calper(4)">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="text_input attended" contenteditable="true"
+                                style="width: 50px;margin-right: 5px;margin-left: 5px;text-align: center;"
+                                oninput="calper(4)">
+                            </div>
+                        </td>
+                        <td class="res"></td>
+                        <td></td>
+                    </tr>
+                    <tr id="row5">
+                        <td style="text-align: center;"><b>V</b></td>
+                        <td>Business Intelligence</td>
+                        <td>
+                            <div class="text_input delivered" contenteditable="true"
+                                style="width: 50px;margin-right: 5px;margin-left: 5px;text-align: center;"
+                                oninput="calper(5)">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="text_input attended" contenteditable="true"
+                                style="width: 50px;margin-right: 5px;margin-left: 5px;text-align: center;"
+                                oninput="calper(5)">
+                            </div>
+                        </td>
+                        <td class="res"></td>
+                        <td></td>
+                    </tr>
+                    <tr id="row6">
+                        <td style="text-align: center;"><b>VI</b></td>
+                        <td>Machine Learning for Cyber Physical System</td>
+                        <td>
+                            <div class="text_input delivered" contenteditable="true"
+                                style="width: 50px;margin-right: 5px;margin-left: 5px;text-align: center;"
+                                oninput="calper(6)">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="text_input attended" contenteditable="true"
+                                style="width: 50px;margin-right: 5px;margin-left: 5px;text-align: center;"
+                                oninput="calper(6)">
+                            </div>
+                        </td>
+                        <td class="res"></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="indiv" style="margin-bottom: 7px;">
+            <div style="font-weight: bold;margin-bottom: 7px;">
+                8. Work Load Alloted
+                <div class="text_input_underline" contenteditable="true" style="width: 155px;text-align: center;"></div>
+                hours/week
+            </div>
+            <table>
+                <tr>
+                    <th>Subject</th>
+                    <th>Name of the Faculty Member</th>
+                    <th>Report of the faculty</th>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="text_input" contenteditable="true" style="width: 200px;text-align: center;"></div>
+                    </td>
+                    <td>
+                        <div class="text_input" contenteditable="true" style="width: 250px;text-align: center;"></div>
+                    </td>
+                    <td>
+                        <div class="text_input" contenteditable="true" style="width: 255px;text-align: center;"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="text_input" contenteditable="true" style="width: 200px;text-align: center;"></div>
+                    </td>
+                    <td>
+                        <div class="text_input" contenteditable="true" style="width: 250px;text-align: center;"></div>
+                    </td>
+                    <td>
+                        <div class="text_input" contenteditable="true" style="width: 255px;text-align: center;"></div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="indiv">
+            <div style="font-weight: bold;margin-bottom: 7px;">
+                9. Thesis progress
+            </div>
+            <ol type="a" style="font-weight: normal;margin-top: 7px;">
+                <li>
+                    Topic of the thesis:
+                    <div class="text_input" contenteditable="true" style="width: 580px;text-align: center;"></div>
+                </li>
+                <li>
+                    Name of the Supervisor:
+                    <div class="text_input" contenteditable="true" style="width: 550px;text-align: center;"></div>
+                </li>
+                <li>
+                    Progress (mention clearly whether satisfactory or unsatisfactory):
+                    _______________________________________________
+                </li>
+            </ol>
+        </div>
+        <div id="decor_table" class="indiv" style="margin-bottom: 15px">
+            <div style="font-weight: bold;margin-bottom: 7px;">
+                10. For Office Use
+            </div>
+            <table>
+                <tr>
+                    <td>Leave Record of the RS</td>
+                    <td>(a) Total Leave available</td>
+                    <td>
+                        :
+                        <u>
+                            15 Per Semester
+                        </u>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>(b) Leave availed</td>
+                    <td>
+                        : _____________
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>(c) Balance available</td>
+                    <td>
+                        : _____________
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>(d) Leave availed in current Month</td>
+                    <td>
+                        : _____________
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>(e) Without stipend after availing 15 leaves</td>
+                    <td>
+                        : _____________
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="indiv">
+            11. Entered in the Register Page No…………………Sr. No.……………………………
+        </div>
+        <div class="indiv" style="margin-top: -10px;margin-bottom: 0;">
+            <p style="font-weight: bold;">
+                Verified that the particulars mentioned against column Sr. No.1 to 11 are in order as per the record of
+                the Department.
+            </p>
+            <div style="margin-top: 28px;">
+                <div class="indiv" style="float: left;font-weight: bold;">
+                    Signature of the Supervisor
+                </div>
+                <div class="indiv" style="float: right;font-weight: bold;">
+                    Departmental Dealing Hand
+                </div>
+            </div>
+            <br>
+            <div style="margin-top: 28px;">
+                <div class="indiv" style="float: left;font-weight: bold;">
+                    Signature of M Tech Coordinator
+                </div>
+                <div class="indiv" style="float: right;font-weight: bold;">
+                    Signature of HOD
+                </div>
+            </div>
+            <br>
+            <div style="margin-top: 28px;margin-bottom: 0;">
+                <div class="indiv" style="float: left;font-weight: bold;">
+                    AR (Accounts)
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div id="print" style="text-align: center;">
+        <button onclick="print()" style="width: 100px; height: 30px;font-size: medium;">Print</button>
+    </div>
+</body>
+
+</html>

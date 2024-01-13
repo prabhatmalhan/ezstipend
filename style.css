@@ -1,0 +1,102 @@
+@font-face {
+  font-family: NotoSans;
+  src: url("./NotoSans.ttf");
+}
+
+body {
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+
+.indiv {
+  font-size: 14px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#heading {
+  text-align: center;
+  margin-top: 0px;
+}
+
+.hindi {
+  font-family: NotoSans;
+  font-size: 35px;
+  font-weight: normal;
+  margin-bottom: 10px;
+  padding: 0px;
+}
+
+.res {
+  font-weight: bold;
+}
+
+#head {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.text_input,
+.text_input_underline {
+  border-style: solid;
+  border-radius: 3px;
+  border-width: 1px;
+  padding: 2px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  height: auto;
+  font-weight: bold;
+}
+
+#icon {
+  margin: 0;
+  margin-right: 25px;
+}
+
+table,
+th,
+td {
+  border: 2px solid;
+  border-collapse: collapse;
+  font-size: 14px;
+  padding: 1px 5px;
+  text-align: center;
+}
+
+#decor_table table,
+#decor_table th,
+#decor_table td {
+  border: 0px;
+  text-align: left;
+  padding: 0px 30px 0px 0px;
+}
+
+@media print {
+  .text_input {
+    border-style: none;
+  }
+
+  .text_input_underline {
+    border-style: dotted;
+    border-width: 0px 0px 3px 0px;
+    border-radius: 0px;
+    padding: 0px;
+  }
+
+  #print {
+    display: none;
+    visibility: hidden;
+  }
+
+  html {
+    zoom: 97%;
+  }
+
+  @page {
+    margin: 0;
+  }
+}
